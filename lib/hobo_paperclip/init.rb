@@ -14,7 +14,7 @@ module ::Paperclip
     
       declare_attr_type name, ::Paperclip::Attachment
     end
-    alias_method :has_attached_file, :hobo
+    alias_method :has_attached_file
   
   end
   
